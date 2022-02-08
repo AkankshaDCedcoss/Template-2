@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .Abc {
   background-color: rgb(112, 105, 105);
 }
@@ -29,7 +34,6 @@
   background-color: green;
 }
 .king {
-  border-right: 2px solid lightyellow;
   width: 100%;
 }
 .pqr {
@@ -64,4 +68,22 @@ p {
 }
 .para2 {
   padding-bottom: 20px;
+}
+
+.footer {
+  background-color: papayawhip;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 500%;
+  padding-left: 80%;
+  padding-bottom: 10px;
+}
+.para3 {
+  font-size: 15px;
+  float: right;
 }
