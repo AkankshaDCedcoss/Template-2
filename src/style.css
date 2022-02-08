@@ -1,7 +1,7 @@
 .Abc {
   background-color: rgb(112, 105, 105);
 }
-h1 {
+#am {
   padding: 10px;
 }
 .navbar {
@@ -27,4 +27,41 @@ h1 {
 }
 .navbar a:hover {
   background-color: green;
+}
+.king {
+  border-right: 2px solid lightyellow;
+  width: 100%;
+}
+.pqr {
+  float: left;
+  width: 70%;
+  margin: 0;
+}
+.ijk {
+  float: left;
+  width: 30%;
+  background-color: rgb(214, 214, 202);
+  padding-bottom: 35%;
+}
+.ijk p {
+  padding: 2%;
+  margin: 0;
+}
+h3 {
+  font-size: 5vm;
+  color: rgb(49, 115, 156);
+  padding: 2%;
+}
+h1 {
+  font-size: 20vm;
+  color: rgb(36, 36, 122);
+}
+p {
+  font-size: 1vm;
+}
+.para1 {
+  padding-bottom: 100px;
+}
+.para2 {
+  padding-bottom: 20px;
 }
