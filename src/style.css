@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
-.Abc {
-  background-color: rgb(112, 105, 105);
+.main{
+  background-color: lightgray;
+  
 }
 #am {
   padding: 10px;
+  font-size: 1.8em;
 }
 .navbar {
   background-color: rgb(27, 26, 26);
@@ -22,47 +26,60 @@
 .navbar li {
   float: left;
   list-style: none;
-  margin: 10px 5px;
   border-right: 2px solid gray;
+  padding: 6px;
 }
 .navbar li a {
-  padding: 0 3px;
+  
   text-decoration: none;
   color: white;
 }
-.navbar a:hover {
+.navbar li:hover {
   background-color: green;
+}
+a:active {
+  color: green;
 }
 .king {
   width: 100%;
+  margin-left: 1.8%;
+  margin-bottom: 3%;
+  
+
 }
+  
 .pqr {
   float: left;
   width: 70%;
-  margin: 0;
+  padding-bottom: 10%;
+  padding-right: 3%;
+  padding-top:2%;
+  
 }
 .ijk {
   float: left;
   width: 30%;
-  background-color: rgb(214, 214, 202);
-  padding-bottom: 35%;
+  background-color: lightgray;
+  padding-bottom: 21em;
 }
 .ijk p {
   padding: 2%;
   margin: 0;
 }
 h3 {
-  font-size: 5vm;
+  font-size: 1.4em;
   color: rgb(49, 115, 156);
   padding: 2%;
 }
 h1 {
-  font-size: 20vm;
+  font-size: 1.8em;
+  margin-bottom: 2px;
+  
   color: rgb(36, 36, 122);
 }
-p {
-  font-size: 1vm;
-}
+
+  
+
 .para1 {
   padding-bottom: 100px;
 }
@@ -71,7 +88,7 @@ p {
 }
 
 .footer {
-  background-color: papayawhip;
+  background-color: lightgray;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -79,11 +96,10 @@ p {
   right: 0;
   padding-top: 20px;
   margin-bottom: 0;
-  margin-top: 500%;
   padding-left: 80%;
   padding-bottom: 10px;
 }
 .para3 {
-  font-size: 15px;
+  
   float: right;
 }
