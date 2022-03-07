@@ -42,7 +42,7 @@ a:active {
 }
 .div2 {
   width: 100%;
-  margin-left: 1.8%;
+ 
   margin-bottom: 3%;
   
 
@@ -54,13 +54,15 @@ a:active {
   padding-bottom: 10%;
   padding-right: 3%;
   padding-top:2%;
+  background-color: white;
   
 }
 .div4 {
   float: left;
   width: 30%;
+  
   background-color: lightgray;
-  padding-bottom: 21em;
+  
   padding-right: 20px;
   padding-left: 10px;
 }
@@ -105,4 +107,25 @@ h1 {
   
   float: right;
   margin-bottom: 0;
+}
+body
+{
+  background-color:  lightgray;
+}
+#head2
+{
+  margin-left: 5%;
+}
+#para22
+{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#para23
+{
+  margin-left: 5%;
+}
+#para24
+{
+  margin-left: 5%;
 }
